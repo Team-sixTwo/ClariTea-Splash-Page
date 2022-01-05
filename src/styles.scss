@@ -18,6 +18,11 @@
   h1 {
     display: flex;
     font-size: 50px;
-    color: red;
+    color: white;
     justify-content: center;
+    
   }
+
+  $white: white;
+  $white-invert: findColorInvert($white);
+$custom-colors: ("white": ($white, $white-invert));
