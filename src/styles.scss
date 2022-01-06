@@ -23,6 +23,21 @@
     
   }
 
-  $white: white;
-  $white-invert: findColorInvert($white);
-$custom-colors: ("white": ($white, $white-invert));
+#why{
+  border-top: 10px solid #9933FF;
+  background-color: white;
+}
+
+#demo{
+  border-top: 10px solid #FF3399;
+  background-color: #3399FF; 
+}
+
+#title{
+  background-color: #3399FF; 
+}
+
+#connect{
+
+  border-top: 10px solid #FF33FF;
+}
