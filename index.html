@@ -147,14 +147,6 @@
                     <hr class="content-divider">
                     <h2 class="subtitle">A key feature of Apache Cassandra is its replication factor. Cassandra’s replication factor across a cluster ensures reliability and fault tolerance. 
                       <br>
-                      <br>
-                      <b>What does this mean?</b>
-                      <br>
-                      The total number of replicas for a Cassandra cluster is known as the replication factor. Each node shares their info with the node(s) adjacent to them depending on the replication factor’s value. 
-                      <br>
-                      If a problem occurs in a node, the application containing data from that node will not crash completely. Instead, the data stored in the adjacent nodes containing the replication factor will maintain that information and this activity within the cluster points the developer to the location of the issue.
-                      <br>
-                      ClariTea’s Replication Factor Visualizer performs like <i>Node Visualizer</i>, displaying the contents of a node, as well as the replicated data stored from its adjacent nodes. A node’s true data is shown in a collapsible tree diagram along with the data replicated from adjacent node(s). 
                     </h2>
                     <button id="repBtn" class="modalbutton">Replication Factors</button>
                   </div>    
@@ -313,13 +305,18 @@
       <div id="repBG" class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">ClariTea & Replication Factors</p>
+          <p class="modal-card-title"><b>What does this mean?</b></p>
         </header>
         <section class="modal-card-body">
-          <h2><b>How does it work?</b></h2>
-          <p>blah blah blah</p>
-          <br>
-          <p>blah blah blah</p>
+          <h2>
+            The total number of replicas for a Cassandra cluster is known as the replication factor. Each node shares their info with the node(s) adjacent to them depending on the replication factor’s value. 
+            <br>
+            <br>
+            If a problem occurs in a node, the application containing data from that node will not crash completely. Instead, the data stored in the adjacent nodes containing the replication factor will maintain that information and this activity within the cluster points the developer to the location of the issue.
+            <br>
+            <br>
+            ClariTea’s Replication Factor Visualizer performs like <i>Node Visualizer</i>, displaying the contents of a node, as well as the replicated data stored from its adjacent nodes. A node’s true data is shown in a collapsible tree diagram along with the data replicated from adjacent node(s). 
+          </h2>        
         </section>
       </div>
     </div>
