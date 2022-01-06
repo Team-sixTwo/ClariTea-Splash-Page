@@ -28,7 +28,19 @@
   @keyframes hover-me {
     100% { transform: translate3d(0, 25px, 0); }
   }
-  
+ 
+.subtitle{
+  color: black;
+}
+
+#vizHeaderBG{
+  background-color: #33FFFF;
+}
+
+#repHeaderBG{
+  background-color: #FF3399;
+}
+
 #title{
     background-color: black; 
   }
@@ -38,19 +50,11 @@
   background-color: #3399FF;
 }
 
-.subtitle{
-  color: black;
-}
-
 #connect-form{
   
   background-color: #FF33FF;
   border-top: 5px solid white;
-
 }
-
-
-
 
 #schema{
   border-top: 5px solid white;
