@@ -3,17 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
 //modal
 const modalBG = document.querySelector('.modal-background');
 
-//Connect Modal Button Trigger
-const connectbtn = document.querySelector('#connectBtn');
-const connectbg = document.querySelector('#connectBG');
-const connectmodal = document.querySelector('#connectModal');
-connectbtn.addEventListener('click', () => {
-    connectmodal.classList.add('is-active');
-});
-connectbg.addEventListener('click', () => {
-    connectmodal.classList.remove('is-active');
-});
-
 //Schema Modal Button Trigger
 const schemabtn = document.querySelector('#schemaBtn');
 const schemabg = document.querySelector('#schemaBG');
