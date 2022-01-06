@@ -1,20 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-//modal
-const modalBG = document.querySelector('.modal-background');
-
-//Schema Modal Button Trigger
-const schemabtn = document.querySelector('#schemaBtn');
-const schemabg = document.querySelector('#schemaBG');
-const schemamodal = document.querySelector('#schemaModal');
-
-schemabtn.addEventListener('click', () => {
-    schemamodal.classList.add('is-active');
-});
-schemabg.addEventListener('click', () => {
-    schemamodal.classList.remove('is-active');
-});
-
+// ALL MODAL TRIGGERS
 //Visualization Modal Button Trigger
 
 const vizbtn = document.querySelector('#vizBtn');
