@@ -1,7 +1,4 @@
-import './styles.scss';
-import React from 'react';
-import ReactDOM from "react-dom";
-import App from "./App.jsx"
+document.addEventListener('DOMContentLoaded', () => {
 
 //modal
 const modalBG = document.querySelector('.modal-background');
@@ -55,5 +52,5 @@ repbg.addEventListener('click', () => {
     repmodal.classList.remove('is-active');
 });
 
-
-ReactDOM.render(<App />, document.getElementById('app'));
+});
+// ReactDOM.render(<App />, document.getElementById('app'));
