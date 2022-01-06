@@ -2,13 +2,6 @@
 @import "~bulma/bulma";
 @import "bulma-social/css/all.min.css";
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    font-family: Roboto, sans-serif;
-  }
   
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Roboto,
@@ -24,60 +17,61 @@
     
   }
 
-#why{
-  border-top: 5px solid #9933FF;
-  background-color: white;
-}
-
-#demo{
-  border-top: 5px solid #FF3399;
-  background-color: #3399FF; 
-}
-
+  .chevron-down {
+    fill: #FFF;
+    margin: auto;
+    width: 5em;
+    height: 5em;
+    animation: hover-me .5s infinite ease-in-out alternate; 
+  }
+  
+  @keyframes hover-me {
+    100% { transform: translate3d(0, 25px, 0); }
+  }
+  
 #title{
-  background-color: #3399FF; 
-}
+    background-color: black; 
+  }
 
-#connect{
-  border-top: 5px solid #FF33FF;
-  font-family: sans-serif;
-
-}
-
-.hero-foot{
-  font-size:small;
-}
-
-.chevron-down {
-  fill: #FFF;
-  margin: auto;
-  width: 5em;
-  height: 5em;
-  animation: hover-me .5s infinite ease-in-out alternate; 
-}
-
-@keyframes hover-me {
-  100% { transform: translate3d(0, 25px, 0); }
-}
-
-#first{
-  color:#9933FF
+#why{
+  border-top: 5px solid white;
+  background-color: #3399FF;
 }
 
 #connect-form{
-  background-color: #33FFFF; 
-  border-top: 5px solid #33FFFF;
+  
+  background-color: #FF33FF;
+  border-top: 5px solid white;
 
 }
+
+
+
+
 #schema{
-  border-top: 5px solid #FF3399;
+  border-top: 5px solid white;
   background-color: #9933FF;
 }
 
 #visualize{
-  background-color: #FF33FF;
+  background-color: #33FFFF; 
+  border-top: 5px solid white;
 }
 
 #repfactor{
   background-color: #FF3399;
+  border-top: 5px solid white;
 }
+
+#connect{
+  border-top: 5px solid white;
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.hero-foot{
+  font-size:small;
+  background-color: black;
+}
+
