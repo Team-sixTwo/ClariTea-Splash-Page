@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/Team-sixTwo/ClariTea-Splash-Page#readme",
   "dependencies": {
+    "bulma-carousel": "^4.0.24",
+    "bulma-social": "^2.1.0",
+    "keyframe": "^2.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "webpack-dev-server": "^4.7.2"
