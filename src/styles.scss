@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import "~bulma/bulma";
+@import "bulma-social/css/all.min.css";
 
 * {
     box-sizing: border-box;
@@ -18,6 +19,65 @@
   h1 {
     display: flex;
     font-size: 50px;
-    color: red;
+    color: white;
     justify-content: center;
+    
   }
+
+#why{
+  border-top: 5px solid #9933FF;
+  background-color: white;
+}
+
+#demo{
+  border-top: 5px solid #FF3399;
+  background-color: #3399FF; 
+}
+
+#title{
+  background-color: #3399FF; 
+}
+
+#connect{
+  border-top: 5px solid #FF33FF;
+  font-family: sans-serif;
+
+}
+
+.hero-foot{
+  font-size:small;
+}
+
+.chevron-down {
+  fill: #FFF;
+  margin: auto;
+  width: 5em;
+  height: 5em;
+  animation: hover-me .5s infinite ease-in-out alternate; 
+}
+
+@keyframes hover-me {
+  100% { transform: translate3d(0, 25px, 0); }
+}
+
+#first{
+  color:#9933FF
+}
+
+#connect-form{
+  background-color: #33FFFF; 
+  border-top: 5px solid #33FFFF;
+
+}
+#schema{
+  border-top: 5px solid #FF3399;
+  background-color: #9933FF;
+}
+
+#visualize{
+  background-color: #FF33FF;
+}
+
+#repfactor{
+  background-color: #FF3399;
+}

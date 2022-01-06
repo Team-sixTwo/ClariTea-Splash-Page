@@ -1,12 +1,223 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ClariTea</title>
-</head>
-<body>
-    <div id="app"></div>
-</body>
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/YN96TDm/Boba-Nodes.png">
+    <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/scss" href="styles.scss" />
+    <link rel="stylesheet" type="text/css" href="../css/hello-parallax.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@2/css/all.min.css"/>
+  </head>
+
+  <body>
+    <section id='title' class="hero is-fullheight is-flex-direction-column" >
+      <div class="hero-body " >
+        <div class="container has-text-centered" >
+          <figure class="image is-inline-block">
+            <img src="https://i.ibb.co/6ZnWHKK/Clari-Tea-Splash-Page-Title-1280x720.png" style='width: 700px;'>
+            <a href='#why'><svg viewBox="0 0 68 33" class="chevron-down is-inline-block mt-6">
+              <path d="M.58 3.414l27.432 27.433c2.715 2.715 7.167 2.787 9.964.164L67.356 3.46 64.62.54 35.24 28.093c-1.222 1.146-3.212 1.114-4.4-.075L3.408.586.579 3.414z"></path>
+    </svg></a>
+          </figure>
+     
+        </div>
+      </div>
+    </section>
+    <section id="why" class="hero is-medium ">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-6">
+              <figure class="image">
+                <img src="https://i.ibb.co/VBnYLZ5/Cassandra-Cluster-Ring-No-Text.png" style='width: 300px;'>
+              </figure>
+            </div>
+            <div class="column is-6 ">
+              <h1 class="title is-1 ">Why ClariTea?</h1>
+              <hr id='first' class="content-divider">
+              <h2 class="subtitle"> ClariTea is a visualization application tool created to help developers explore and understand their Apache Cassandra clusters. Users are able to easily connect to their DataStax Astra databases using their Client ID, Client Secret, and local zip filepath. Then they can visualize their schemas, the replication factors for their clusters, as well as a collapsible tree diagram to help guide their data modeling.</h2>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+    </section>
+      <section id="connect-form" class="hero is-medium">
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns">
+              <div class="column is-6 ">
+                <h1 class="title is-1 ">Connect your Cluster</h1>
+                <hr class="content-divider">
+                <h2 class="subtitle">Connect cluster here using ASTRA Client information.</h2>
+              </div>
+              <div class="column is-6">
+                <figure class="image">
+                  <img src="https://raw.githubusercontent.com/oslabs-beta/ClariTea/a463a423b7fecb73af25173a474642ea1541292c/src/components/assets/ConnectForm%20(1130%20x%20600%20px).gif">
+                </figure>
+              </div>               
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="schema" class="hero is-medium ">
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns">
+              <div class="column is-6">
+                <figure class="image">
+                  <img src="https://raw.githubusercontent.com/oslabs-beta/ClariTea/a463a423b7fecb73af25173a474642ea1541292c/src/components/assets/Schema%20(1130%20x%20600%20px).png">
+                </figure>
+              </div> 
+              <div class="column is-6 ">
+                <h1 class="title is-1 ">Identifying CQL Schemas</h1>
+                <hr class="content-divider">
+                <h2 class="subtitle">SCHEMA DESCRIPTION HERE</h2>
+              </div>    
+            </div>
+          </div>
+        </div>
+      </section>  
+      <section id="visualize" class="hero is-medium">
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns">
+              <div class="column is-6 ">
+                <h1 class="title is-1 ">Visualize your Nodes</h1>
+                <hr class="content-divider">
+                <h2 class="subtitle">VISUALIZE DESCRIPTION.</h2>
+              </div>
+              <div class="column is-6">
+                <figure class="image">
+                  <img src="https://raw.githubusercontent.com/oslabs-beta/ClariTea/a463a423b7fecb73af25173a474642ea1541292c/src/components/assets/Visualize%20(1130%20x%20600%20px).gif">
+                </figure>
+              </div>               
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="repfactor" class="hero is-medium ">
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns">
+              <div class="column is-6">
+                <figure class="image">
+                  <img src="https://raw.githubusercontent.com/oslabs-beta/ClariTea/a463a423b7fecb73af25173a474642ea1541292c/src/components/assets/Replication%20(1130%20x%20600%20px).gif">
+                </figure>
+              </div> 
+              <div class="column is-6 ">
+                <h1 class="title is-1 ">Display Node Replication Factor</h1>
+                <hr class="content-divider">
+                <h2 class="subtitle">Replication Factor Description here.</h2>
+              </div>    
+            </div>
+          </div>
+        </div>
+      </section>    
+    <section id='connect'>
+      <div class="container has-text-centered my-5">
+        <div class="columns is-centered is-variable is-8">
+          <div class="columns">
+            <div class="column">
+              <h1 class="title is-1 ">The ClariTea Team</h1>
+              <div class="columns is-8">
+                <div class="column is-one-fifth">
+                  <figure class="image is-128x128">
+                    <img class="is-rounded" src="https://i.ibb.co/4FLGRm9/Alexis.png">
+                  </figure>
+                  <p>Alexis Smith</p>
+                  <a href= 'https://github.com/lexlexsquared' class="button is-small is-github is-outlined is-rounded">
+                    <span class="icon">
+                      <i class="fab fa-github fa-lg"></i>
+                    </span>
+                </a>
+                <a href= 'https://www.linkedin.com/in/atsmith29/' class="button is-small is-linkedin is-outlined is-rounded">
+                  <span class="icon">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                  </span>
+              </a>
+                </div>
+                <div class="column is-one-fifth">
+                  <figure class="image is-128x128">
+                    <img class="is-rounded" src="https://i.ibb.co/vx8CCyL/Brit.png">
+                  </figure>
+                  <p>Brit Lim</p>
+                  <a href= 'https://github.com/britlim' class="button is-small is-github is-outlined is-rounded">
+                    <span class="icon">
+                      <i class="fab fa-github fa-lg"></i>
+                    </span>
+                </a>
+                <a href= 'https://www.linkedin.com/in/brit-lim/' class="button is-small is-linkedin is-outlined is-rounded">
+                  <span class="icon">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                  </span>
+              </a>
+                </div>
+                <div class="column is-one-fifth">
+                  <figure class="image is-128x128">
+                    <img class="is-rounded" src="https://i.ibb.co/4mPvq43/Kirsten.png">
+                  </figure>
+                  <p>Kirsten Coronado</p>
+                  <a href= 'https://github.com/helloblair' class="button is-small is-github is-outlined is-rounded">
+                    <span class="icon">
+                      <i class="fab fa-github fa-lg"></i>
+                    </span>
+                </a>
+                <a href= 'https://www.linkedin.com/in/kirstencoronado/' class="button is-small is-linkedin is-outlined is-rounded">
+                  <span class="icon">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                  </span>
+              </a>
+                </div>
+                <div class="column is-one-fifth">
+                  <figure class="image is-128x128">
+                    <img class="is-rounded" src="https://i.ibb.co/MVp1XfK/Peyton.png">
+                  </figure>
+                  <p>Peyton Pedersen</p>
+                  <a href= 'https://github.com/peyton333' class="button is-small is-github is-outlined is-rounded">
+                    <span class="icon">
+                      <i class="fab fa-github fa-lg"></i>
+                    </span>
+                </a>
+                <a href= 'https://www.linkedin.com/in/peyton-pedersen/' class="button is-small is-linkedin is-outlined is-rounded">
+                  <span class="icon">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                  </span>
+              </a>
+                </div>
+                <div class="column is-one-fifth">
+                  <figure class="image is-128x128">
+                    <img class="is-rounded" src="https://i.ibb.co/bmMSTZb/Phillip.png">
+                  </figure>
+                  <p>Phillip Yoo</p>
+                  <a href= 'https://github.com/yoophillip' class="button is-small is-github is-outlined is-rounded">
+                    <span class="icon">
+                      <i class="fab fa-github fa-lg"></i>
+                    </span>
+                </a>
+                <a href= 'https://www.linkedin.com/in/phillipyoo218/' class="button is-small is-linkedin is-outlined is-rounded">
+                  <span class="icon ">
+                    <i class="fab fa-linkedin fa-lg "></i>
+                  </span>
+              </a>
+                </div>
+              </div>
+            </div>
+      </div>
+
+    </section>
+    <footer class="hero-foot mt-6">
+      <div class="content has-text-centered">
+        <p>
+        Accelerated by OSLabs 2022 ClariTea<sup>TM</sup> All Rights Reserved
+        </p>
+      </div>
+    </footer>
+  </body>
+
 </html>
